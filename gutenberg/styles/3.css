@@ -1,0 +1,79 @@
+body {
+  background-color: #fcfaf2;
+  font-family: "Tilt Warp", cursive;
+  color: #32380e;
+}
+
+#bg-image-container {
+  display: flex;
+  justify-content: center;
+  z-index: 999;
+}
+
+#bg-image {
+  width: 25%;
+  position: fixed;
+  opacity: 25%;
+  bottom: -15pt;
+  filter: none;
+}
+
+#pg-header {
+  font-size: 7pt;
+  text-align: center;
+}
+
+#pg-header p {
+  display: inline;
+  padding-top: 5pt;
+  margin: 0pt 10pt;
+  font-size: 11pt;
+}
+
+.contributors {
+  font-size: 7pt;
+  text-align: center;
+}
+
+.delineate-doc {
+  display: none;
+  height: 0;
+}
+
+.external {
+  color: blue;
+}
+
+.external:visited {
+  color: rebeccapurple;
+}
+
+.pginternal {
+  color: rgb(100, 37, 0);
+  text-decoration-line: none;
+}
+
+hr {
+  margin-top: 2pt;
+  margin-bottom: 2pt;
+  border-style: dashed;
+}
+
+img {
+  z-index: 99 !important;
+  filter: sepia(100%);
+}
+
+h2,
+h3,
+h3,
+h4,
+h5 {
+  color: rgb(184, 0, 0);
+  text-transform: uppercase;
+}
+
+i {
+  text-decoration: underline;
+  color: rgb(207, 135, 0);
+}
