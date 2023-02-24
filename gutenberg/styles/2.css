@@ -1,0 +1,121 @@
+/* Soft-reset */
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+body {
+  background: url(../assets/Hexagon_pattern.jpg);
+  background-repeat: repeat;
+  backdrop-filter: sepia(50%);
+  font-family: "Roboto", serif;
+}
+
+/* Centers all of the content into more readable space */
+.body-content {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10pt 5%;
+  background-color: rgba(180, 117, 0, 0.575);
+}
+
+h2.title {
+  font-size: larger;
+  text-align: center;
+  margin: 5pt;
+  font-size: 18pt;
+  font-family: "Gloock", serif;
+}
+
+#pg-header {
+  padding-top: 10pt;
+}
+
+#author-name {
+  display: block;
+  margin: 5pt;
+  font-size: 14pt;
+}
+
+.boring-stuff {
+  font-size: 8pt;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 75%;
+  margin: 10pt auto;
+  padding: 5pt;
+  border-radius: 10pt;
+}
+
+.content-delimiter {
+  display: block;
+  font-size: 7pt;
+  margin: 0 auto;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+img:first-of-type {
+  margin: 10pt auto;
+  border-radius: 10pt;
+  border: 2px solid #412803;
+  align-self: flex-start;
+  flex: 3;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+}
+
+.hook {
+  display: flex;
+  align-items: center;
+}
+
+.reference-external {
+  font-weight: bold;
+  color: blue;
+}
+
+.poem {
+  margin: 5pt auto;
+}
+
+.poem:first-of-type {
+  font-size: 20pt;
+  margin-left: 15pt;
+  overflow: false;
+  flex: 2;
+}
+
+.stanza {
+  font-family: "Playfair Display";
+  font-style: italic;
+  margin: 0 auto;
+  display: inline;
+}
+
+p {
+  text-indent: 20pt;
+  margin: 10pt;
+}
+
+h2:not(.title) {
+  font-size: 16pt;
+  padding: 0 2pt;
+  width: fit-content;
+  border-bottom: 3px solid #412803;
+}
+
+.signature {
+  font-family: "Tangerine";
+}
+
+a.pginternal {
+  display: inline-block;
+  color: rgb(77, 50, 0);
+  font-weight: bolder;
+  margin-left: 0;
+  padding-left: 0;
+}
