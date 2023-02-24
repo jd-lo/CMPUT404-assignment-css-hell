@@ -1,1 +1,81 @@
+body {
+  font-family: "IBM Plex Mono", monospace;
+  background-color: #202020;
+  color: #e4e4e4;
+  margin: 0 auto;
+  width: 90%;
+}
 
+#pg-header {
+  color: rgb(48, 48, 48);
+}
+
+a.pginternal {
+  color: rgb(134, 11, 11);
+  text-decoration: dotted;
+  text-decoration-line: underline;
+}
+
+.cover-image {
+  filter: grayscale() drop-shadow(10px 10px 4px black) contrast(150%)
+    brightness(20%);
+  rotate: 23deg;
+  display: block;
+  margin: 15pt;
+  position: absolute;
+  right: 10%;
+  top: 30%;
+}
+
+a {
+  text-decoration-line: none;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Big Shoulders Text", cursive;
+  font-weight: 700;
+}
+
+#pg-header h2 {
+  border-bottom: none;
+}
+
+h2 {
+  font-size: 22pt;
+  color: rgb(255, 196, 0);
+  padding-bottom: 5pt;
+  border-bottom: 5pt solid rgb(255, 196, 0);
+  width: fit-content;
+}
+
+.dropcap {
+  color: rgb(255, 196, 0);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.chapter p {
+  width: 85%;
+  margin: 15pt auto;
+  text-indent: 20pt;
+  padding-left: 20pt;
+  border-left: 3px solid rgb(53, 53, 53);
+}
+
+.disclaimer {
+  color: rgb(48, 48, 48);
+}
+
+.disclaimer a {
+  color: rgb(48, 48, 48);
+}
+
+.disclaimer a:hover {
+  text-decoration-line: underline;
+  text-decoration: dotted;
+}
