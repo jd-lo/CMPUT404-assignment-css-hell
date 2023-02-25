@@ -1,0 +1,3 @@
+Usage complies with officially sanctioned guidelines from:
+Apache 2.0 License
+
