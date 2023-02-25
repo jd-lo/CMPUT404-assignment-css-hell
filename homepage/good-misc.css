@@ -1,0 +1,21 @@
+.header-icon {
+  width: 16pt;
+  height: 16pt;
+}
+
+.icon {
+  width: 20pt;
+  height: 20pt;
+}
+
+.primary {
+  background-color: #2ea479;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration-color: #2a8665;
+}

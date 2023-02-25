@@ -1,31 +1,43 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jonathan's Page</title>
+
+    <!-- Google Fonts API -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <!-- My style sheets -->
+    <link rel="stylesheet" href="./good-misc.css">
+    <link rel="stylesheet" href="./good-header.css">
+
   </head>
 
   <body>
 
     <div id="header-bar">
-      <div>
-        <img src="" alt="Jonathan's logo" id="personal-logo" />
-        <p id="first-name">Jonathan</p>
+      <span id="personal-branding">
+        <img src="./assets/vectors/JLogo.svg" alt="Jonathan's logo" id="personal-logo" class = "header-icon"/>
         <p id="last-name">Lo</p>
-      </div>
-      
-      <span id="github-link">
-        <p class="header-content"></p>
-        <img src="" alt="github" class="header-icon header-content" />
+        <p id="first-name">Jonathan</p>
       </span>
-      <span id="email-link">
-        <p class="header-content"></p>
-        <img src="" alt="email" class="header-icon header-content" />
+      <span id="link-container">
+        <a href="https://github.com/jd-lo" id="github-link">
+          <p class="header-content header-text">jd-lo</p>
+          <img src="./assets/vectors/Material-design-pictogrammers/github.svg" alt="github" class="header-icon header-content" />
+        </a>
+        <span id="email-link">
+          <p class="header-content header-text">jdlo@ualberta.ca</p>
+          <img src="./assets/vectors/Material-design-pictogrammers/email.svg" alt="email" class="header-icon header-content" />
+        </span>
       </span>
     </div>
 
-    <div id="my-header">
+    <div id="my-header primary">
       <p class="greeting"><strong>Hello!</strong></p>
       <p class="introduction">
         My name is <strong class="name">Jonathan</strong>, a University of
@@ -34,14 +46,14 @@
         evaluate user experiences and then use my skills to develop an app to
         scratch to a finished product.
       </p>
-      <span class="box-decoration">
-        <img src="" alt="light-bulb-icon" />
+      <span class="box-decoration primary">
+        <img src="./assets/vectors/Material-design-pictogrammers/lightbulb-on.svg" alt="light-bulb-icon" class="icon"/>
       </span>
       <!-- This is just to style the inverted section of the border box -->
       <div class="invert-box-border"></div>
     </div>
 
-    <div id="sidebar">
+    <div id="sidebar primary">
       <img src="profile-picture" alt="Hey! It's Jonathan" />
       <hr class="primary-header" />
       <div id="skills">
@@ -127,7 +139,7 @@
       </div>
     </div>
 
-    <div id="supplementary-box">
+    <div id="supplementary-box primary">
       <h2>More About Me</h2>
       <h3>Favourite Colour Combinations</h3>
       <span class="color-combinations">
@@ -162,7 +174,7 @@
       </span>
     </div>
     
-    <img src="" alt="kicub-bear-logo">
+    <img src="" alt="kicub-bear-logo" class="logo primary">
     <!-- This is just to style the bottom gradient of the page -->
     <div class="gradient-box"></div>
 

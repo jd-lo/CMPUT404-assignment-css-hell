@@ -1,0 +1,54 @@
+/* Primary color: #2EA479 */
+
+#header-bar {
+  width: 100vw;
+  height: 58pt;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0pt;
+  left: 0pt;
+  display: inline-flex;
+  flex-basis: 0;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2ea479;
+  box-shadow: 0pt 4pt 6pt rgba(0, 0, 0, 0.33);
+  padding: 5pt 5%;
+}
+
+#last-name {
+  display: inline;
+  color: #2a8665;
+}
+
+#first-name {
+  margin-top: 0;
+  color: #fff;
+}
+
+#personal-branding {
+  width: fit-content;
+}
+
+#personal-logo {
+  width: 30pt;
+  height: 30pt;
+}
+
+#github-link,
+#email-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+#github-link {
+  margin-right: 10pt;
+}
+
+.header-text {
+  margin-right: 5pt;
+}
+
+.header-content {
+  color: #2a8665;
+}
