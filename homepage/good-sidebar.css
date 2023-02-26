@@ -3,6 +3,8 @@
   height: 450pt;
   border-radius: 5pt;
   position: relative;
+  float: left;
+  margin: 0 15pt;
   top: -25pt;
 }
 
