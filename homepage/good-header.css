@@ -1,5 +1,3 @@
-/* Primary color: #2EA479 */
-
 #header-bar {
   width: 100vw;
   height: 58pt;
@@ -9,24 +7,32 @@
   left: 0pt;
   display: inline-flex;
   flex-basis: 0;
+  margin: 0;
   align-items: center;
   justify-content: space-between;
   background-color: #2ea479;
   box-shadow: 0pt 4pt 6pt rgba(0, 0, 0, 0.33);
   padding: 5pt 5%;
+  z-index: 999;
 }
 
 #last-name {
   display: inline;
   color: #2a8665;
+  font-weight: bold;
+  font-size: 20pt;
 }
 
 #first-name {
   margin-top: 0;
   color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 #personal-branding {
+  margin: auto 0;
+  padding: 0;
   width: fit-content;
 }
 

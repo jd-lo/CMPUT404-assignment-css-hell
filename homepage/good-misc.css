@@ -1,15 +1,33 @@
+/* Primary color: #2EA479 */
+
 .header-icon {
   width: 16pt;
   height: 16pt;
 }
 
 .icon {
-  width: 20pt;
-  height: 20pt;
+  width: 32pt;
+  height: 32pt;
+  margin: 8pt 24pt;
+}
+
+.content-container {
+  margin-top: 100pt;
+  margin: 100pt 25% 0 8.33%;
 }
 
 .primary {
   background-color: #2ea479;
+}
+
+.primary-header {
+  color: #fff;
+  width: 100%;
+}
+
+.secondary-header {
+  width: 95%;
+  color: #2a8665;
 }
 
 body {
@@ -18,4 +36,15 @@ body {
 
 a {
   text-decoration-color: #2a8665;
+}
+
+h2 {
+  color: #fff;
+  margin: 5pt 0 0 10pt;
+}
+
+h3 {
+  margin-top: 0;
+  color: #2a8665;
+  margin: 0 0 0 10pt;
 }

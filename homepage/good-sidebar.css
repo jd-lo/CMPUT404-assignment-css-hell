@@ -1,0 +1,22 @@
+#sidebar {
+  width: 270pt;
+  height: 450pt;
+  border-radius: 5pt;
+  position: relative;
+  top: -25pt;
+}
+
+#self-picture {
+  height: 95pt;
+}
+
+.skills {
+  margin-left: 15pt;
+}
+
+.implementation-icons .technologies-icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}

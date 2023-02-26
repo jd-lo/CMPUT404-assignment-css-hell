@@ -1,0 +1,56 @@
+#my-header {
+  border: 2pt solid #2ea479;
+  border-radius: 5pt 5pt 5pt 5pt;
+  display: flex;
+  margin-left: 45pt;
+  padding: 0;
+  height: 100pt;
+}
+
+#introduction {
+  flex: 5;
+  padding-right: 10pt;
+  align-self: center;
+}
+
+.invert-box-border {
+  position: relative;
+  bottom: -75pt;
+  height: 24pt;
+  width: 221pt;
+  border-bottom: 2pt solid white;
+  border-left: 2pt solid white;
+  border-radius: 0 0 0 5pt;
+  z-index: 2;
+}
+
+.greeting {
+  font-size: 16pt;
+  width: fit-content;
+  background-color: #fff;
+  color: #2ea479;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  rotate: -22deg;
+  right: -25pt;
+  top: 5pt;
+}
+
+.box-decoration {
+  height: 100pt;
+  width: 100pt;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lightbulb-icon {
+  rotate: 37deg;
+  width: 65pt;
+  height: 65pt;
+}
+
+.name {
+  color: #2ea479;
+}

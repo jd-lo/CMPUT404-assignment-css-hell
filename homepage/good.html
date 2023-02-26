@@ -14,6 +14,8 @@
     <!-- My style sheets -->
     <link rel="stylesheet" href="./good-misc.css">
     <link rel="stylesheet" href="./good-header.css">
+    <link rel="stylesheet" href="./good-heading-primary.css">
+    <link rel="stylesheet" href="./good-sidebar.css">
 
   </head>
 
@@ -30,151 +32,160 @@
           <p class="header-content header-text">jd-lo</p>
           <img src="./assets/vectors/Material-design-pictogrammers/github.svg" alt="github" class="header-icon header-content" />
         </a>
-        <span id="email-link">
+        <a href="mailto:jdlo@ualberta.ca" id="email-link">
           <p class="header-content header-text">jdlo@ualberta.ca</p>
           <img src="./assets/vectors/Material-design-pictogrammers/email.svg" alt="email" class="header-icon header-content" />
-        </span>
+        </a>
       </span>
     </div>
-
-    <div id="my-header primary">
+    <div class="content-container">
       <p class="greeting"><strong>Hello!</strong></p>
-      <p class="introduction">
-        My name is <strong class="name">Jonathan</strong>, a University of
-        Alberta computing science undergraduate and aspiring front-end web
-        developer with the baility to design and develop assets, prototypes, and
-        evaluate user experiences and then use my skills to develop an app to
-        scratch to a finished product.
-      </p>
-      <span class="box-decoration primary">
-        <img src="./assets/vectors/Material-design-pictogrammers/lightbulb-on.svg" alt="light-bulb-icon" class="icon"/>
-      </span>
-      <!-- This is just to style the inverted section of the border box -->
-      <div class="invert-box-border"></div>
-    </div>
-
-    <div id="sidebar primary">
-      <img src="profile-picture" alt="Hey! It's Jonathan" />
-      <hr class="primary-header" />
-      <div id="skills">
-        <h2>Competencies</h2>
-        <h3>Implementation</h3>
-        <div class="icon-set implementation-icons">
-          <img src="./assets/vectors/Material-design-pictogrammers/language-python.svg" alt="python-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers/language-javascript.svg" alt="javascript-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers/language-css3.svg" alt="css-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers/language-html5.svg" alt="html-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers//bootstrap.svg" alt="bootstrap-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers/vuejs.svg" alt="vue-icon" class="icon"/>
-        </div>
-        <hr class="secondary-header" />
-        <h3>Design & Prototype</h3>
-        <div class="icon-set design-prototype-icons">
-          <img src="./assets/vectors/Figma Icon/1-Color-Icon-Black.svg" alt="figma-icon" class="icon"/>
-          <!-- Not allowed to use Adobe icons, so I can't include :) -->
-          <img src="./assets/vectors/Inkscape Icon/Inkscape-flat-logo-2color.svg" alt="inkscape-icon class="icon"/>
-        </div>
-        <h2>On the Docket</h2>
-        <h3>Technologies</h3>
-        <div class="icon-set technologies-icons">
-          <img src="./assets/vectors/Material-design-pictogrammers/react.svg" alt="react-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers/angular.svg" alt="angular-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers/tailwind.svg" alt="tailwind-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers/sass.svg" alt="sass-icon" class="icon"/>
-          <img src="./assets/vectors/Material-design-pictogrammers/language-typescript.svg" alt="typescript-icon" class="icon"/>
-        </div>
-      </div>
-    </div>
-
-    <div id="main-section">
-      <div class="sub-section">
-        <h1>What I Have To Offer</h1>
-        <p>
-          As a computing science student with an interest in design and UI/UX, I
-          strive to make solid designs in whatever I do -- even it it takes me
-          <em>waaaayy</em> longer than it “should.” I work hard to make sure
-          things are where they should be -- down to the pixel so that the
-          end-product is refined, maintainable, and beautiful.
+      <div id="my-header">
+        <!-- Invert border color and provide spacing for profile picture -->
+        <div class="invert-box-border"></div>
+        <p id="introduction">
+          My name is <strong class="name">Jonathan</strong>, a University of
+          Alberta computing science undergraduate and aspiring front-end web
+          developer with the baility to design and develop assets, prototypes, and
+          evaluate user experiences and then use my skills to develop an app to
+          scratch to a finished product.
         </p>
-        <p>
-          As the bulk contributor in the majority of my group projects during my
-          scholastic career, I’ve learned to be an adaptable teammate, who can
-          holistically analyze a project and make strides to any
-          shortcomings,even if it’s somewhat beyond my immediate expertise.
-        </p>
-      </div>
-      <div class="sub-section">
-        <p>
-          Starting from basic technological literacy out of high school, I’ve
-          spent the last four years cultivating the creative and technological
-          repertoire to what it is today. While I continue to further my
-          capabilities, here’s what I’ve accomplished up until now:
-        </p>
-        <ul class="bullet1">
-          <li>
-            <p>
-              Built an app with Java and Android Studio (<strong>Yikes</strong>,
-              that was not fun; would not do again)
-            </p>
-          </li>
-          <li>
-            <p>Used JS, CSS, and HTML to make some basic web apps</p>
-            <ul class="bullet2">
-              <li>
-                <p>Then made them better with Vue and Bootstrap</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>Create a variety of Figma mock-ups to power my prototyping</p>
-          </li>
-          <li>
-            <p>
-              Created my own vectors and some subjectively great looking
-              documents with Adobe™ InDesign™, Adobe™ Illustrator™ and Inkscape
-              (Like this bear I'm pretty proud of)
-            </p>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <div id="supplementary-box primary">
-      <h2>More About Me</h2>
-      <h3>Favourite Colour Combinations</h3>
-      <span class="color-combinations">
-        <span id="color-combo1">
-          <span class="color-box color1">
-          <span class="color-add">+</span>
-          <span class="color-box color2"></span>
+        <span class="box-decoration primary">
+          <img src="./assets/vectors/Material-design-pictogrammers/lightbulb-on.svg" alt="light-bulb-icon" class="big-icon lightbulb-icon"/>
         </span>
-        <span id="color-combo2">
-          <span class="color-box color3"></span>
-          <span class="color-add">+</span>
-          <span class="color-box color4"></span>
+      </div>
+
+      <div id="sidebar" class="primary">
+        <img src="profile-picture" alt="Hey! It's Jonathan" id="self-picture" />
+        <hr class="primary-header" />
+        <div id="skills">
+          <h2>Competencies</h2>
+          <h3>Implementation</h3>
+          <div class="icon-set implementation-icons">
+            <div class="upper">
+              <img src="./assets/vectors/Material-design-pictogrammers/language-python.svg" alt="python-icon" class="icon"/>
+              <img src="./assets/vectors/Material-design-pictogrammers/language-javascript.svg" alt="javascript-icon" class="icon"/>
+              <img src="./assets/vectors/Material-design-pictogrammers/language-css3.svg" alt="css-icon" class="icon"/>
+            </div>
+            <div class="lower">
+              <img src="./assets/vectors/Material-design-pictogrammers/language-html5.svg" alt="html-icon" class="icon"/>
+              <img src="./assets/vectors/Material-design-pictogrammers//bootstrap.svg" alt="bootstrap-icon" class="icon"/>
+              <img src="./assets/vectors/Material-design-pictogrammers/vuejs.svg" alt="vue-icon" class="icon"/>
+            </div>
+          </div>
+          <hr class="secondary-header" />
+          <h3>Design & Prototype</h3>
+          <div class="icon-set design-prototype-icons">
+            <img src="./assets/vectors/Figma Icon/1-Color-Icon-Black.svg" alt="figma-icon" class="icon"/>
+            <!-- Not allowed to use Adobe icons, so I can't include :) -->
+            <img src="./assets/vectors/Inkscape Icon/inkscape-flat-w-transp-white.svg" alt="inkscape-icon" class="icon"/>
+          </div>
+          <h2>On the Docket</h2>
+          <h3>Technologies</h3>
+          <div class="icon-set technologies-icons">
+            <div class="upper">
+              <img src="./assets/vectors/Material-design-pictogrammers/react.svg" alt="react-icon" class="icon"/>
+              <img src="./assets/vectors/Material-design-pictogrammers/angular.svg" alt="angular-icon" class="icon"/>
+              <img src="./assets/vectors/Material-design-pictogrammers/tailwind.svg" alt="tailwind-icon" class="icon"/>
+            </div>
+            <div class="lower">
+              <img src="./assets/vectors/Material-design-pictogrammers/sass.svg" alt="sass-icon" class="icon"/>
+              <img src="./assets/vectors/Material-design-pictogrammers/language-typescript.svg" alt="typescript-icon" class="icon"/>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="main-section">
+        <div class="sub-section">
+          <h1>What I Have To Offer</h1>
+          <p>
+            As a computing science student with an interest in design and UI/UX, I
+            strive to make solid designs in whatever I do -- even it it takes me
+            <em>waaaayy</em> longer than it “should.” I work hard to make sure
+            things are where they should be -- down to the pixel so that the
+            end-product is refined, maintainable, and beautiful.
+          </p>
+          <p>
+            As the bulk contributor in the majority of my group projects during my
+            scholastic career, I’ve learned to be an adaptable teammate, who can
+            holistically analyze a project and make strides to any
+            shortcomings,even if it’s somewhat beyond my immediate expertise.
+          </p>
+        </div>
+        <div class="sub-section">
+          <p>
+            Starting from basic technological literacy out of high school, I’ve
+            spent the last four years cultivating the creative and technological
+            repertoire to what it is today. While I continue to further my
+            capabilities, here’s what I’ve accomplished up until now:
+          </p>
+          <ul class="bullet1">
+            <li>
+              <p>
+                Built an app with Java and Android Studio (<strong>Yikes</strong>,
+                that was not fun; would not do again)
+              </p>
+            </li>
+            <li>
+              <p>Used JS, CSS, and HTML to make some basic web apps</p>
+              <ul class="bullet2">
+                <li>
+                  <p>Then made them better with Vue and Bootstrap</p>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <p>Create a variety of Figma mock-ups to power my prototyping</p>
+            </li>
+            <li>
+              <p>
+                Created my own vectors and some subjectively great looking
+                documents with Adobe™ InDesign™, Adobe™ Illustrator™ and Inkscape
+                (Like this bear I'm pretty proud of)
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="supplementary-box primary">
+        <h2>More About Me</h2>
+        <h3>Favourite Colour Combinations</h3>
+        <span class="color-combinations">
+          <span id="color-combo1">
+            <span class="color-box color1">
+            <span class="color-add">+</span>
+            <span class="color-box color2"></span>
+          </span>
+          <span id="color-combo2">
+            <span class="color-box color3"></span>
+            <span class="color-add">+</span>
+            <span class="color-box color4"></span>
+          </span>
         </span>
-      </span>
-      <hr class="secondary-header">
-      <h3>Hobbies</h3>
-      <span>
-        <img src="" alt="controller-icon" class="icon">
-        <p>Video Games</p>
-      </span>
-      <span>
-        <img src="" alt="headphones-icon" class="icon">
-        <p>Podcasts</p>
-      </span>
-      <span>
-        <img src="" alt="book-icon" class="icon">
-        <p>Reading</p>
-      </span>
-      <span>
-        <img src="" alt="design-icon" class="icon">
-        <p>Designing</p>
-      </span>
+        <hr class="secondary-header">
+        <h3>Hobbies</h3>
+        <span>
+          <img src="" alt="controller-icon" class="icon">
+          <p>Video Games</p>
+        </span>
+        <span>
+          <img src="" alt="headphones-icon" class="icon">
+          <p>Podcasts</p>
+        </span>
+        <span>
+          <img src="" alt="book-icon" class="icon">
+          <p>Reading</p>
+        </span>
+        <span>
+          <img src="" alt="design-icon" class="icon">
+          <p>Designing</p>
+        </span>
+      </div>
+      
+      <img src="" alt="kicub-bear-logo" class="logo primary">
     </div>
-    
-    <img src="" alt="kicub-bear-logo" class="logo primary">
     <!-- This is just to style the bottom gradient of the page -->
     <div class="gradient-box"></div>
 
