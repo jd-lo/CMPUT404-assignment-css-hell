@@ -1,0 +1,39 @@
+#my-header {
+  background-color: rgb(255, 187, 0);
+  border-radius: 50%;
+  width: 610pt;
+  height: 190pt;
+  position: absolute;
+  left: 6%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#introduction {
+  color: #2e8dcc;
+}
+
+.lightbulb-icon {
+  object-fit: cover;
+  position: relative;
+  top: 12pt;
+  left: -600pt;
+  height: 90pt;
+  width: 30pt;
+  rotate: 16deg;
+}
+
+.greeting {
+  font-weight: 700;
+  font-size: 48pt;
+  line-height: 65pt;
+  color: #ff0000;
+  -webkit-text-stroke: 2pt aqua;
+  rotate: -22.65deg;
+  position: relative;
+  right: 0pt;
+  bottom: -35pt;
+  z-index: 30;
+}

@@ -1,0 +1,19 @@
+#main-section {
+  width: 50%;
+  clear: left;
+  position: absolute;
+  top: 400pt;
+  left: 200pt;
+}
+
+h1 {
+  text-align: end;
+  rotate: -1deg;
+  font-family: "Sofia", cursive;
+  color: green;
+}
+
+#main-section p {
+  color: white;
+  font-family: "Nova Mono", monospace;
+}

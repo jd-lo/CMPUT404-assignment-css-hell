@@ -1,0 +1,38 @@
+#sidebar {
+  width: 125pt;
+  height: 670pt;
+  border-radius: 5pt;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin: 0 15pt;
+  top: 250pt;
+  background: linear-gradient(272.87deg, #5c5c5c -7.21%, #ffffff 207.14%);
+}
+
+#self-picture {
+  width: 100%;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+}
+
+.icon-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  display: block;
+}
+
+.icon:nth-of-type(odd) {
+  rotate: 12deg;
+}
+
+.icon.icon:nth-of-type(even) {
+  rotate: -36deg;
+}

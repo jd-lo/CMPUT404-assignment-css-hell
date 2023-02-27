@@ -1,0 +1,51 @@
+#header-bar {
+  position: fixed;
+  top: 0;
+  box-sizing: border-box;
+  height: 50pt;
+  line-height: 0pt;
+  font-size: 32pt;
+  color: #b9b9b9;
+  border-bottom: 5px dashed blue;
+  background-color: #d8d8d8;
+  text-align: center;
+  width: 100%;
+  z-index: 100;
+}
+
+#header-bar .welcome-text {
+  z-index: 9999;
+}
+
+#link-container {
+  height: 275pt;
+  width: 300pt;
+  top: -75pt;
+  right: -75%;
+  position: relative;
+  padding-left: 15pt;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  background-color: rgb(228, 70, 220);
+  z-index: 999;
+}
+
+.header-content {
+  margin: auto 0;
+  font-size: 15pt;
+  color: rgb(255, 196, 0);
+  text-decoration-line: none;
+}
+
+.stand-in {
+  color: white;
+  font-size: 23pt;
+  font-weight: bold;
+  margin-right: 10pt;
+}
+
+a:first-of-type {
+  padding: 15pt;
+}
