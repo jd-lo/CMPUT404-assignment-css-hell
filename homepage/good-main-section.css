@@ -20,6 +20,10 @@ ul {
   max-width: 50em;
 }
 
+li {
+  font-size: 14pt;
+}
+
 li::before {
   content: "\25A0";
   color: #2ea479;

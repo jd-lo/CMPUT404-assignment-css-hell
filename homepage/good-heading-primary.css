@@ -1,5 +1,5 @@
 #my-header {
-  border: 2pt solid #2ea479;
+  border: 3pt solid #2ea479;
   border-radius: 5pt 5pt 5pt 5pt;
   display: flex;
   margin-left: 45pt;
@@ -17,9 +17,10 @@
   position: relative;
   bottom: -75pt;
   height: 24pt;
-  width: 221pt;
-  border-bottom: 2pt solid white;
-  border-left: 2pt solid white;
+  left: -1pt;
+  width: 236pt;
+  border-bottom: 3pt solid white;
+  border-left: 3pt solid white;
   border-radius: 0 0 0 5pt;
   z-index: 2;
 }

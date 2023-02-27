@@ -30,6 +30,15 @@
   color: #2a8665;
 }
 
+.bear-logo {
+  width: 128pt;
+  height: 128pt;
+  rotate: 12deg;
+  position: absolute;
+  left: 1070pt;
+  top: 680pt;
+}
+
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -51,4 +60,8 @@ h3 {
   margin-top: 0;
   color: #2a8665;
   margin: 0 0 0 10pt;
+}
+
+p {
+  font-size: 14pt;
 }
