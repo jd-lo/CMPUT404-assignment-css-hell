@@ -27,13 +27,13 @@
 
 .greeting {
   font-weight: 700;
-  font-size: 48pt;
+  font-size: 36pt;
   line-height: 65pt;
   color: #ff0000;
   -webkit-text-stroke: 2pt aqua;
   rotate: -22.65deg;
   position: relative;
-  right: 0pt;
-  bottom: -35pt;
+  right: -30pt;
+  bottom: -15pt;
   z-index: 30;
 }

@@ -11,7 +11,13 @@
 }
 
 #self-picture {
-  width: 100%;
+  position: absolute;
+  object-fit: cover;
+  left: -50pt;
+  top: -90pt;
+  height: 120pt;
+  filter: contrast(150%) hue-rotate(153deg) brightness(50%) blur(0.5pt);
+  rotate: 90deg;
 }
 
 #skills {
@@ -25,14 +31,14 @@
   align-items: center;
 }
 
-img {
-  display: block;
-}
-
 .icon:nth-of-type(odd) {
   rotate: 12deg;
 }
 
 .icon.icon:nth-of-type(even) {
   rotate: -36deg;
+}
+
+img {
+  display: block;
 }

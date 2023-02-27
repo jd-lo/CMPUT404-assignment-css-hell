@@ -9,7 +9,14 @@
 }
 
 #self-picture {
-  height: 95pt;
+  width: 100%;
+  position: absolute;
+  top: -170pt;
+}
+
+.primary-header {
+  position: relative;
+  margin-top: 64pt;
 }
 
 .skills {
